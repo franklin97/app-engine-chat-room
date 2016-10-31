@@ -1,6 +1,7 @@
 runtime: python27
 api_version: 1
 threadsafe: true
+application: marine-potion-146721
 
 inbound_services:
 - channel_presence

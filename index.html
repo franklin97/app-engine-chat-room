@@ -84,7 +84,6 @@ newmessage.on('blur', function(e) {
    $("#submit").click(function(){
      $.post('/send', {data: newmessage.val()});
      newmessage.val('');
-   };
    });
  });
 </script>
